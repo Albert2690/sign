@@ -1,0 +1,19 @@
+<%-include('header')-%>
+
+<div class="text-center center-div mt-20  " id="'login1">
+    <div class="container  w-50 text-dark bg-warning  border py-5 mt-5">
+        <h2><i>Welcome to your page</i></h2>
+        <h5><%=locals.user?user:"user"%></h5>
+        <!-- <form action=""></form> -->
+        <a href="/route/logout">Logout</a>
+    </div>
+    <!-- <div class="logout">
+        <button type="button"class="btn btn-danger">Logout</button>
+    </div> -->
+    
+</div>
+
+
+
+
+<%-include('footer')-%>
